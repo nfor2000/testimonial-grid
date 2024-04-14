@@ -23,7 +23,7 @@ h1 {
 
 section {
      display: grid;
-     grid-gap: 30px;
+     grid-gap: 20px;
 }
 
 
@@ -74,8 +74,9 @@ section {
 }
 
 .testimonial-text {
-     color: hsl(0, 0%, 81%);
-     opacity: .7;
+     color: var(--color);
+     opacity: .8;
+     font-size: 14px;
 }
 
 @media screen and (min-width: 678px) {
